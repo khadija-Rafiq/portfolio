@@ -12,7 +12,7 @@ const Card:React.FC<propsType> = ({ title, desc, img, tags}) => {
     <div className='border border-accent w-[300px] sm:w-[350px]' data-aos="zoom-in-up">
       <div>
         <Image className='w-[300px] sm:w-[350px] h-auto'
-        src={img}
+        src={"/images/profile.jpeg"}
         width={350}
         height={350}
         alt={title}
@@ -35,3 +35,5 @@ const Card:React.FC<propsType> = ({ title, desc, img, tags}) => {
 }
 
 export default Card
+
+

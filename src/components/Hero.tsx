@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import Projects from './Projects'
+//import Projects from './Projects'
 import Image from 'next/image'
 
 const Hero = () => {
