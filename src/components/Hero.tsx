@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Centered Image */}
       <div className="relative flex items-center justify-center h-[calc(100vh-60px)]">
         <Image 
-          src="/profile_bg.png" 
+          src="/images/profile.jpeg" 
           alt="my-pick" 
           width={300} 
           height={300} 
